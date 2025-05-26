@@ -257,7 +257,7 @@ print(selected_features_anova)
 import pandas as pd
 from sklearn.feature_selection import RFE
 from sklearn.linear_model import LogisticRegression
-df=pd.read_csv("/content/income(1) (1).csv")
+df=pd.read_csv("/content/income.csv")
 # List of categorical columns
 categorical_columns = [
     'JobType',
